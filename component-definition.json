@@ -510,6 +510,24 @@
           }
         },
         {
+          "title": "Summary",
+          "id": "summary",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/fd/components/form/panelcontainer/v1/panelcontainer",
+                "template": {
+                  "jcr:title": "Summary",
+                  "fieldType": "panel",
+                  "fd:viewType": "summary",
+                  "enabled": true,
+                  "visible": true
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Telephone input",
           "id": "telephone-input",
           "plugins": {
