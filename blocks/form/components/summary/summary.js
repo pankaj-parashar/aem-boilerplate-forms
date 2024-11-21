@@ -1,4 +1,6 @@
 export default function decorate(fieldHtml, fieldJson) {
     //... code to manipulate fieldHtml
-    debugger;
+    console.log('fieldJson:', fieldJson);
+    console.log('fieldHtml:', fieldHtml);
+    return fieldHtml;
   }
